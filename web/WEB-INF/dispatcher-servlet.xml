@@ -27,6 +27,11 @@
                 <prop key="Editar.htm">controlador</prop>
                 <prop key="Borrar.htm">controlador</prop>
                 <prop key="Eliminar.htm">controlador</prop>
+                <prop key="getEmpleados.htm">restcontrolador</prop>
+                <prop key="getEmpleado/{id}.htm">restcontrolador</prop>
+                <prop key="postEmpleado.htm">restcontrolador</prop>
+                <prop key="putEmpleado.htm">restcontrolador</prop>
+                <prop key="deleteEmpleado.htm">restcontrolador</prop>
             </props>
         </property>
     </bean>
@@ -41,5 +46,6 @@
     -->
     
     <bean name="controlador" class="controller.Controlador" />
+    <bean name="restcontrolador" class="controller.EmpleadosContrador" />
 
 </beans>

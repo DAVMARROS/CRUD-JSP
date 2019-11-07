@@ -4,9 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/David/Documents/NetBeansProjects/CRUDMSC2019/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/David/Documents/NetBeansProjects/CRUDMSC2019/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/David/Documents/NetBeansProjects/CRUDMSC2019/src/java/conexion/Conexion.java</file>
             <file>file:/C:/Users/David/Documents/NetBeansProjects/CRUDMSC2019/src/java/controller/Controlador.java</file>
-            <file>file:/C:/Users/David/Documents/NetBeansProjects/CRUDMSC2019/web/WEB-INF/jsp/Agregar.jsp</file>
+            <file>file:/C:/Users/David/Documents/NetBeansProjects/CRUDMSC2019/src/java/controller/EmpleadosContrador.java</file>
         </group>
     </open-files>
 </project-private>

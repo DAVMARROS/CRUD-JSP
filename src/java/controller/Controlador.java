@@ -98,7 +98,6 @@ public class Controlador{
         String clave = String.valueOf(Request.getParameter("clave"));
         String nombre = String.valueOf(Request.getParameter("nombre"));
         String sueldo = String.valueOf(Request.getParameter("sueldo"));
-        System.out.println(clave+" "+nombre+" "+sueldo);
         String sql = "update empleados set nombre='"+nombre+"', sueldo='"+sueldo+"' where clave='"+clave+"';";
         this.jdbctemplate.execute(sql);
         
@@ -127,4 +126,5 @@ public class Controlador{
         
         return "redirect:index.htm";
     }
+    
 }

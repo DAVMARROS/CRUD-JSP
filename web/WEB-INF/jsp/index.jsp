@@ -28,9 +28,9 @@
                             <tbody>
                                 <c:forEach var="reg" items="${lista}">
                                     <tr>
-                                        <td>${reg.clave} </td>
-                                        <td>${reg.nombre} </td>
-                                        <td>${reg.sueldo} </td>
+                                        <td>${reg.clave}</td>
+                                        <td>${reg.nombre}</td>
+                                        <td>${reg.sueldo}</td>
                                         <td> 
                                             <a class="btn btn-info" href="Ver.htm?clave=${reg.clave}" style="margin-left: 20px;">Ver</a>
                                             <a class="btn btn-warning" href="Modificar.htm?clave=${reg.clave}" style="margin-left: 20px;">Editar</a>
